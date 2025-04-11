@@ -14,6 +14,7 @@ function descriptor()
     }
 end
 
+
 function activate()
     vlc.msg.dbg("ZestSync Extension Activated")
 
