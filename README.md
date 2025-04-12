@@ -2,7 +2,7 @@
 
 ZestSync generates real-time AI subtitles for VLC Media Player using OpenAI Whisper. This tool runs in the background, automatically creating `.srt` subtitle files when you open a video in VLC, with notifications for seamless integration.
 
-**Website**: [ZestSync](https://zestsync.dev) (replace with your actual website link)
+**Website**: [ZestSync](https://zestsync.netlify.app) 
 
 ## Features
 - Real-time subtitle generation for VLC.
