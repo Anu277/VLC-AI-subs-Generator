@@ -1,42 +1,35 @@
-# ZestSync - AI-Powered Subtitles for VLC
+# ⚠️ Zest Sync Player - Important Notice
 
-ZestSync generates real-time AI subtitles for VLC Media Player using OpenAI Whisper. This tool runs in the background, automatically creating `.srt` subtitle files when you open a video in VLC, with notifications for seamless integration.
+## Legacy Version Deprecation
 
-**Website**: [ZestSync](https://zestsync.netlify.app) 
+**The legacy versions of Zest Sync Player are no longer recommended and have been deprecated.**
 
-## Features
-- Real-time subtitle generation for VLC.
-- Powered by OpenAI Whisper for accurate transcription.
-- Lightweight, offline-capable background process.
-- Easy setup with VLC integration.
-- Windows-only support.
+## ✅ Current Version: v2.0.0
 
-## How I Made the AI Subtitles
+I have completely rebuilt Zest Sync Player with advanced features and improvements. Please use the latest version:
 
-I built ZestSync to bring AI-powered subtitles to VLC without manual effort. Here’s the process and commands I used:
+### 🔗 Official Repository
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge)](https://github.com/Anu277/Zest-Sync-Player-v2.0)
 
-### Development Process
-1. **Concept**: I wanted subtitles to generate automatically for any video played in VLC, using AI transcription for accuracy across languages.
-2. **Tech Stack**:
-   - **Python**: For the core subtitle generation logic.
-   - **OpenAI Whisper**: For real-time audio transcription.
-   - **MoviePy**: To extract audio from video files.
-   - **Psutil**: To monitor VLC processes.
-   - **Winotify**: For Windows notifications.
-   - **VLC Extension (ZSLoader)**: To integrate subtitles seamlessly.
-3. **Workflow**:
-   - Detect when VLC opens a video using `psutil`.
-   - Extract audio with `moviepy`.
-   - Transcribe audio to text with `openai-whisper`.
-   - Convert text to `.srt` format.
-   - Notify the user via `winotify` when subtitles are ready.
-   - Load subtitles in VLC via the ZSLoader extension.
+### 🌐 Live Demo
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://zestsync.netlify.app/)
 
-### Commands Used
-To set up the environment and dependencies, I ran:
+## 🚀 What's New in v2.0.0
 
-```bash
-pip install moviepy==1.0.3
-pip install psutil
-pip install openai-whisper
-pip install winotify
+- **GenAI-powered** subtitle generation with 90%+ accuracy
+- **14 translation languages** support
+- **Advanced AI pipeline** with optimized performance
+- **Production-ready** deployment with professional installer
+- **600MB RAM optimization** for better performance
+
+## 📋 Tech Stack
+
+- Python
+- OpenAI Whisper
+- Hugging Face Transformers
+- GenAI APIs
+- PyInstaller
+
+---
+
+**For any questions or support, please refer to the v2.0.0 repository or contact me directly.**
