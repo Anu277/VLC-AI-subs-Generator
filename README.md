@@ -9,7 +9,7 @@
 I have completely rebuilt Zest Sync Player with advanced features and improvements. Please use the latest version:
 
 ### 🔗 Official Repository
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge)](https://github.com/Anu277/Zest-Sync-Player-v2.0)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge)](https://github.com/Anu277/Zest-Sync-Player)
 
 ### 🌐 Live Demo
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://zestsync.netlify.app/)
